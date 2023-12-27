@@ -1,0 +1,13 @@
+!SESSION 2023-08-18 03:25:14.280 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Git_Source\pdu-mwcu-daimler-bsw\Applications\SipAddon\StartApplication\workspace\SENSATA_176_PIN\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Git_Source\pdu-mwcu-daimler-bsw\Applications\SipAddon\StartApplication\workspace\SENSATA_176_PIN\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-08-18 03:27:38.136
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-08-18 03:27:38.140
+!MESSAGE Log4j2 initialized with config file C:\Users\a1081962\Documents\STM32_MCU\tresos_001\.metadata\.log4j2.xml

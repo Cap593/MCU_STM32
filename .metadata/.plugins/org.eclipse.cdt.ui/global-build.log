@@ -1,0 +1,14 @@
+23:10:19 **** Incremental Build of configuration Debug for project STM32F407G_Drivers ****
+make -j12 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32.d" -MT"Startup/startup_stm32.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32.o" "../Startup/startup_stm32.s"
+arm-none-eabi-gcc -o "STM32F407G_Drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\a1081962\Documents\STM32_MCU\STM32F407G_Drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F407G_Drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F407G_Drivers.elf
+ 
+arm-none-eabi-size   STM32F407G_Drivers.elf 
+arm-none-eabi-objdump -h -S  STM32F407G_Drivers.elf  > "STM32F407G_Drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+    664	      8	   1568	   2240	    8c0	STM32F407G_Drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F407G_Drivers.list
+ 
